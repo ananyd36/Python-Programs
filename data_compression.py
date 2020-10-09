@@ -42,6 +42,8 @@ we will map elemnts in a range
 '''
 
 #we will loop through the old image, see where the number is lying and change value
+arr = np.zeros((3,3))
+
 
 for i in range(img.size[0]):
     for j in range(img.size[1]):
